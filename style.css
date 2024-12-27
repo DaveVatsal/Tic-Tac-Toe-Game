@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background-color: #F0F8FF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", serif;
+}
+
+.heading-part {
+  color: #191970;
+  font-weight: 900;
+  margin-top: 50px;
+  font-size: larger;
+}
+
+.heading-part button {
+  position: relative;
+  left: 36%;
+  top: -36px;
+  height: 35px;
+  width: 110px;
+  border: none;
+  border-radius: 10px;
+  background-color: #191970;
+  color: #FFFFFF;
+  font-size: 15px;
+  cursor: pointer; 
+}
+
+.btn-boxes {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 1.5vmin;
+}
+
+.btn {
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 5px;
+  border: 2px solid #A9B8C3;
+  background-color: #EAF4F4;
+  color: rgb(3, 197, 246);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+.reset-btn {
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: #191970;
+  color: #FFFFFF;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.new-btn {
+  height: 35px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: #191970;
+  color: #FFFFFF;
+  font-size: 15px; 
+  cursor: pointer;
+}
+
+#msg {
+  color:#191970;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.msg-container {
+  height: 100vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.hide {
+  display: none;
+}
+
